@@ -1,5 +1,10 @@
 {
-  "name": "my_coockiecutter",
-  "repo_name": "cookiecutter-{{ cookiecutter.name }}",
-  "github_username": "my_github_username"
+  "name": "my_python_package",
+  "repo_name": "python-{{ cookiecutter.name }}",
+  "summary": "My python package",
+  "python_version": "3.6",
+  "full_name": "My Name",
+  "email": "my.name@example.com",
+  "github_username": "my_github_username",
+  "homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}"
 }

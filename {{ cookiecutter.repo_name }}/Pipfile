@@ -1,0 +1,12 @@
+[[source]]
+url = 'https://pypi.org/simple'
+verify_ssl = true
+name = 'pypi'
+
+[dev-packages]
+pylint = '~= 2.1'
+
+[packages]
+
+[requires]
+python_version = '{{ cookiecutter.python_version }}'

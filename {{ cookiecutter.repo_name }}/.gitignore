@@ -1,1 +1,7 @@
 *.swp
+/*.egg-info/
+/.venv/*
+/build/
+/dist/
+__pycache__/
+!.gitkeep
